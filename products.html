@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quality Products - Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header nav {
+            display: flex;
+            gap: 20px;
+        }
+        header nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .product {
+            background: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .product img {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        .product button {
+            padding: 10px;
+            background: #ffd700;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        footer {
+            background: #000;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Quality Products</div>
+        <nav>
+            <a href="index.html" class="home-button">Home</a>
+        </nav>
+    </header>
+
+    <div class="products">
+        <h2>Shop Now - Our Best Sellers</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="https://www.alternate.be/p/600x600/8/8/AMD_Ryzen_5_5600X__3_7_GHz__4_6_GHz_Turbo_Boost__socket_AM4_processor@@1685588.jpg" alt="CPU">
+                <h3>Ryzen 5 5600X</h3>
+                <button onclick="window.location.href='https://www.amazon.com.be/-/nl/AMD-Ryzen-5600X-processor-zwart/dp/B08166SLDF/ref=asc_df_B08166SLDF/?tag=begogshpadd0d-21&linkCode=df0&hvadid=714453674833&hvpos=&hvnetw=g&hvrand=7257728551027805863&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9040001&hvtargid=pla-1038719530487&psc=1&mcid=076871abd77634c8a6a5a1c7095f9575&gad_source=1';">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="https://m.media-amazon.com/images/I/71tduSp8ooL._AC_SX679_.jpg" alt="GPU">
+                <h3>RTX 3080</h3>
+                <button onclick="window.location.href='https://example.com/affiliate-link-2';">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="https://m.media-amazon.com/images/I/61j7rCZxYGL._AC_SX679_.jpg" alt="Case">
+                <h3>Sharkoon TK4 RGB, PC Case</h3>
+                <button onclick="window.location.href='https://example.com/affiliate-link-3';">Buy Now</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Quality Products. All rights reserved.</p>
+    </footer>
+</body>
+</html>
